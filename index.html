@@ -6,7 +6,14 @@
     <title>Time & Weather</title>
 </head>
 <body>
-    
+    <form id="timeWeatherForm">
+        <label for="locations">Input Locations (Name And/Or Postal Code, Comma Seperated)</label>
+        <hr>
+        <input style="width: 500px;" type="text" name="locations" required>
+        <button>Submit</button>
+    </form>
+
+    <section id="timeWeatherResults"></section>
     <script src="main.js"></script>
 </body>
 </html>
