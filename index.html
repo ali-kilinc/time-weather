@@ -6,10 +6,12 @@
     <title>Time & Weather</title>
 </head>
 <body>
-    <form id="timeWeatherForm">
+    <form action="#" id="timeWeatherForm">
         <label for="locations">Input Locations (Name And/Or Postal Code, Comma Seperated)</label>
+        <span style="display: block; font-style: italic;">e.g. : New York, 10005, Tokyo, São Paulo, Pluto</span>
+        <span style="display: block; font-style: italic;">e.g. : 82941, 83254, Ankara, Leon, 24000</span>
         <hr>
-        <input style="width: 500px;" type="text" name="locations" required>
+        <input id="locations" style="width: 500px;" type="text" name="locations" required>
         <button>Submit</button>
     </form>
 
